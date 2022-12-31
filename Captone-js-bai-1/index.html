@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>ShoppingCart</title>
+</head>
+
+<body>
+
+  <section class="product">
+    <div class="container">
+      <div class="product-items">
+        <div class="product-item">
+          <div class="product-item-text">
+            <img style="height: 200px;" src="https://cdn.tgdd.vn/Products/Images/42/114115/iphone-x-64gb-hh-600x600.jpg"
+              alt="">
+            <p><span>8000000</span><sup>đ</sup></p>
+            <h1 style="font-weight: blod; font-size: 18px;">IphoneX</h1>
+            <p>Thiết kế mang tính đột phá</p>
+            <p>"screen": "screen 68"</p>
+            <p>"backCamera": "2 camera 12 MP"</p>
+            <p>"frontCamera": "7 MP"</p>
+          </div>
+          <button>THÊM</button>
+        </div>
+
+        <div class="product-item">
+          <div class="product-item-text">
+            <img style="height: 200px;"
+              src="https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg"
+              alt="">
+            <p><span>4000000</span><sup>đ</sup></p>
+            <h1 style="font-weight: blod; font-size: 18px;">Samsung Galaxy M51</h1>
+            <p>Thiết kế mang tính đột phá</p>
+            <p>"screen": "screen 68"</p>
+            <p> "backCamera": " Chính 64 MP & Phụ 12 MP, 5 MP, 5 MP"</p>
+              <p> "frontCamera": " 32 MP",</p>
+            </div>
+            <button>THÊM</button>
+          </div>
+
+          <div class="product-item">
+            <div class="product-item-text">
+              <img style="height: 200px;" src="https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg"
+                alt="">
+              <p><span>4500000</span><sup>đ</sup></p>
+              <h1 style="font-weight: blod; font-size: 18px;">Samsung Galaxy M22</h1>
+              <p>Thiết kế mang tính đột phá</p>
+              <p>"screen": "screen 68"</p>
+              <p>"backCamera": "Chính 12 MP & Phụ 64 MP, 12 MP" </p>
+              <p>"frontCamera": "32 MP"</p>
+            </div>
+            <button>THÊM</button>
+          </div>
+
+          <div class="product-item">
+            <div class="product-item-text">
+              <img style="height: 200px;"
+                src="https://didongviet.vn/pub/media/catalog/product//i/p/iphone-11-pro-max-256gb-didongviet_23.jpg"
+                alt="">
+              <p><span>10000000</span><sup>đ</sup></p>
+              <h1 style="font-weight: blod; font-size: 18px;">Iphone 11</h1>
+              <p>Thiết kế đột phá, màn hình tuyệt đỉnh</p>
+              <p>"screen": "screen 54"</p>
+              <p>"backCamera":"Camera: Chính 12 MP & Phụ 64 MP, 12 MP"</p>
+              <p>"frontCamera": "32 MP"</p>
+            </div>
+            <button>THÊM</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cart-icon">
+      <p><i class="fas fa-shopping-cart"></i><span></span><sup></sup></p>
+    </div>
+
+    <section class="cart">
+      <i class="fas fa-times"></i>
+      <form action="">
+        <table>
+          <thead>
+            <h2>CART</h2>
+            <tr>
+            <th>Sản Phẩm</th>
+          <th>Giá</th>
+          <th>Số lượng</th>
+          <th>Chọn</th>
+        </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td style="display:flex;align-items: center;"><img style="width: 90px;" src="https://cdn.tgdd.vn/Products/Images/42/114115/iphone-x-64gb-hh-600x600.jpg"
+              alt="">IphoneX
+            </td>
+            <td><p><span>800.000</span><sup>đ</sup></p></td>
+            <td><input style="width: 30px; outline: none;" type="number" value="1" min="0"></td>
+            <td style="cursor: pointer;" >Xóa</td>
+          </tr> -->
+          <!-- <tr>
+            <td style="display:flex;align-items: center;"><img style="width: 90px;" src="https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg"
+              alt="">Samsung Galaxy M51
+            </td>
+            <td><p><span>4.000.000</span><sup>đ</sup></p></td>
+            <td><input style="width: 30px; outline: none;" type="number" value="1" min="0"></td>
+            <td style="cursor: pointer;" >Xóa</td>
+          </tr>
+          <tr>
+            <td style="display:flex;align-items: center;"><img style="width: 90px;" src="https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg"
+              alt="">Samsung Galaxy M22
+            </td>
+            <td><p><span>4.500.000</span><sup>đ</sup></p></td>
+            <td><input style="width: 30px; outline: none;" type="number" value="1" min="0"></td>
+            <td style="cursor: pointer;" >Xóa</td>
+          </tr>
+          <tr>
+            <td style="display:flex;align-items: center;"><img style="width: 90px;" src="https://didongviet.vn/pub/media/catalog/product//i/p/iphone-11-pro-max-256gb-didongviet_23.jpg"
+              alt="">Iphone 11
+            </td>
+            <td><p><span>10.000.000</span><sup>đ</sup></p></td>
+            <td><input style="width: 30px; outline: none;" type="number" value="1" min="0"></td>
+            <td style="cursor: pointer;" >Xóa</td>
+          </tr> -->
+        </tbody>
+      </table>
+      <div class="price-total">
+        <p>Tổng Tiền:</p>
+        <td><p><span>0</span><sup>đ</sup></p></td>  
+
+      </div>
+      <button>Chốt Đơn</button>
+    </form>
+  </section>
+
+
+  <script src="./service/index.js"></script>
+</body>
+
+</html>
